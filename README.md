@@ -41,6 +41,6 @@ To use this tool, follow these steps:
 
 This tool is developed by **Markmix Studios Limited**. If you have any feedback, feel free to reach out or contribute to the project on GitHub.
 
-## License
+## DEMO
 
-This project is open-source and available under the [MIT License](LICENSE).
+<a href= "https://markmix-studios.github.io/zip-extrator"> Visit Zip Extrator Demo Here</a>
