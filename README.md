@@ -1,6 +1,6 @@
 # File Converter Tool
 
-This is a simple and user-friendly web tool developed by **Codiify** for converting text content into various file formats. You can easily input content, choose a format, and download the converted file directly.
+This is a simple and user-friendly web tool developed by **Markmix Studios** for converting text content into various file formats. You can easily input content, choose a format, and download the converted file directly.
 
 ![File Converter Tool](https://i.ibb.co/sKfGG40/20241219-205238.jpg)
 
@@ -39,7 +39,7 @@ To use this tool, follow these steps:
 
 ## Credits
 
-This tool is developed by **Codiify**. If you have any feedback, feel free to reach out or contribute to the project on GitHub.
+This tool is developed by **Markmix Studios Limited**. If you have any feedback, feel free to reach out or contribute to the project on GitHub.
 
 ## License
 
