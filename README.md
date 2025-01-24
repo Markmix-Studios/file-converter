@@ -41,8 +41,7 @@ To use this tool, follow these steps:
 
 This tool is developed by **Markmix Studios Limited**. If you have any feedback, feel free to reach out or contribute to the project on GitHub.
 
-
-##Contact, markmixstudios@gmail.com and bismark@markmixstudios.com
+## Contact, markmixstudios@gmail.com and bismark@markmixstudios.com
 
 ## DEMO
 
