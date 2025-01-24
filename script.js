@@ -33,7 +33,25 @@ async function convertFile() {
     // PDF file using jsPDF
     const { jsPDF } = window.jspdf;
     const pdfDoc = new jsPDF();
-    pdfDoc.text(fileContent, 10, 10);
+
+    // Set margins for the PDF content
+    const margin = 10;
+    const pageHeight = pdfDoc.internal.pageSize.height;
+    let yOffset = margin;
+
+    // Split the content into multiple lines if necessary
+    const lines = pdfDoc.splitTextToSize(fileContent, pdfDoc.internal.pageSize.width - margin * 2);
+    
+    // Add text to the PDF and handle page breaks
+    for (let i = 0; i < lines.length; i++) {
+      if (yOffset + 10 > pageHeight - margin) {  // Check if the text goes beyond the page
+        pdfDoc.addPage();  // Add a new page if needed
+        yOffset = margin;
+      }
+      pdfDoc.text(lines[i], margin, yOffset);  // Place the line at the current offset
+      yOffset += 10;  // Adjust vertical offset for next line
+    }
+
     blob = pdfDoc.output('blob');
 
   } else if (format === 'zip') {
