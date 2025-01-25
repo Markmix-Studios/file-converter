@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://markmix-studios.github.io/file-converter/sitemap.xml
